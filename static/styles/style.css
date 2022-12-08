@@ -17,9 +17,10 @@ body {
     transition: 2s;
     padding: 10px;
     display: flex;
+    gap: 4px;
 }
 
-.api-url {
+.inpt {
     background-color: transparent;
     border: 2px solid #353535;
     text-align: center;
@@ -30,7 +31,11 @@ body {
     transition: 1s;
 }
 
-.api-url:focus {
+.inpt.head {
+    padding: 2px 1px;
+}
+
+.inpt:focus {
     border-color: #FFFF;
     transition: 2s;
     outline:none;
