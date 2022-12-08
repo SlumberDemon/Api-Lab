@@ -1,0 +1,6 @@
+v: 1
+icon: ./static/images/discovery.png
+micros:
+- name: ApiLab 
+  src: .
+  engine: python3.9
