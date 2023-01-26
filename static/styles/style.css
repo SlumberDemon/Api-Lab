@@ -74,8 +74,10 @@ body {
     color: #FFFF;
 }
 
-.output {
+.out-cnt {
     background-color: transparent;
     border: 2px solid #353535;
     color: #757575;
+    border-radius: 8px;
+    padding: 12px 20px;
 }

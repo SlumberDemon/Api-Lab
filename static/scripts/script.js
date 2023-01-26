@@ -9,5 +9,5 @@ SendButton.addEventListener("click", async () => {
     let rsp = await fetch(`${ApiUrl.value}`, { method: ApiType.value}) 
     let data = await rsp.json()
     console.log(data)
-    OutputField.innerHTML = data
+    OutputField.innerHTML = JSON.stringify(data)
 })
