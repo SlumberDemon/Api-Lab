@@ -6,4 +6,7 @@ git: "https://github.com/SlumberDemon/Api-Lab"
 ---
 
 ## Features
+
 - Get, Post, Put, Patch, Delete requests
+
+# Its recommended to use this app on desktop devices with large screens
